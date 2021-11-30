@@ -1,0 +1,497 @@
+/* Big screen :1200px. */
+
+@media (min-width: 1501px) and (max-width:1800px) {
+    img.world {
+        width: 100%;
+    }
+}
+
+
+/* Big screen :1200px. */
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+    img.world {
+        width: 100%;
+    }
+    img.Flare {
+        width: 100%;
+    }
+    img.h-lite {
+        width: 100%;
+    }
+    img.Vector {
+        right: 0% !important;
+    }
+    img.cont-bg {
+        width: 100%;
+    }
+    .footer_cont.aos-init.aos-animate {
+        transform: unset;
+    }
+}
+
+
+/* Normal screen :992px. */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        padding: 0 30px;
+    }
+    img.world {
+        width: 100%;
+    }
+    img.Flare {
+        width: 100%;
+    }
+    img.h-lite {
+        width: 100%;
+        transform: translate(-50%, -50%) rotate( 0deg);
+    }
+    img.Vector {
+        right: 0% !important;
+    }
+    img.cont-bg {
+        width: 100%;
+    }
+    img.EllipseHero {
+        width: 100%;
+    }
+    img.Bitcoin {
+        width: 300px;
+    }
+    .hero_cont h2 {
+        font-size: 46px;
+    }
+    .hero_cont {
+        padding: 150px 0;
+    }
+    .menu-area nav ul li a {
+        font-size: 20px;
+    }
+    .menu-area ul {
+        max-width: 656px;
+    }
+    .logo-area a {
+        font-size: 30px;
+    }
+    .mission-cont p {
+        font-size: 20px;
+        max-width: 800px;
+    }
+    .mission-cont {
+        height: 470px;
+    }
+    .wedo_blk i {
+        max-width: 227px;
+    }
+    .wedo_blk i img {
+        width: 100%;
+    }
+    .wedo_blk i img.sv_logo {
+        width: 56px;
+        top: 42%;
+    }
+    .wedo_blk p {
+        font-size: 18px;
+    }
+    .wedo_blk:after {
+        width: 99%;
+    }
+    .contact p {
+        font-size: 30px;
+    }
+    .footer_cont.aos-init {
+        opacity: 1;
+        transform: unset !important;
+    }
+    .footer-wrp {
+        width: 45%;
+    }
+}
+
+
+/* Tablet screen :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    img.world {
+        width: 100%;
+    }
+    img.Flare {
+        width: 100%;
+    }
+    img.h-lite {
+        width: 100%;
+        transform: translate(-50%, -50%) rotate( 0deg);
+    }
+    img.Vector {
+        right: 0% !important;
+    }
+    img.cont-bg {
+        width: 100%;
+    }
+    img.EllipseHero {
+        width: 100%;
+    }
+    img.Bitcoin {
+        width: 300px;
+    }
+    .hero_cont h2 {
+        font-size: 46px;
+    }
+    .hero_cont {
+        padding: 20px 0;
+        max-width: 456px;
+        margin: auto;
+        margin-top: 230px;
+    }
+    .hero_img {
+        max-width: 400px;
+    }
+    section.hero .row {
+        flex-direction: column-reverse;
+        margin-top: 151px;
+    }
+    .menu-area nav ul li a {
+        font-size: 20px;
+    }
+    .menu-area ul {
+        max-width: 656px;
+    }
+    .logo-area a {
+        font-size: 30px;
+    }
+    .mission-cont p {
+        font-size: 18px;
+        max-width: 610px;
+    }
+    .mission-cont {
+        height: 377px;
+    }
+    .wedo_blk i {
+        max-width: 227px;
+    }
+    .wedo_blk i img {
+        width: 100%;
+    }
+    .wedo_blk i img.sv_logo {
+        width: 56px;
+        top: 42%;
+    }
+    .wedo_blk p {
+        font-size: 18px;
+    }
+    .wedo_blk:after {
+        width: 99%;
+    }
+    .contact p {
+        font-size: 20px;
+        max-width: 590px;
+    }
+    .footer_cont.aos-init {
+        opacity: 1;
+        transform: unset !important;
+    }
+    .footer-wrp {
+        width: 32%;
+        flex-direction: column;
+        margin: auto;
+    }
+    .footer-wrp a {
+        margin-bottom: 20px;
+    }
+    img.Particles {
+        left: 18%;
+        display: none;
+    }
+    img.lsptop {
+        width: 135px;
+    }
+    .about_cont p {
+        font-size: 18px;
+    }
+    .about_cont h2 {
+        font-size: 40px;
+    }
+    .about_cont {
+        padding: 56px;
+        max-width: 500px;
+    }
+    img.line {
+        display: none;
+    }
+    .wedo_blk {
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .contact h1 {
+        font-size: 45px;
+    }
+    .contact span {
+        font-size: 30px;
+    }
+    .contact a {
+        font-size: 18px;
+    }
+    section.contact-area {
+        height: 400px;
+        margin: 138px 0 91px;
+    }
+    section {
+        margin-bottom: 100px;
+    }
+}
+
+
+/* small screen :320px. */
+
+@media (max-width: 767px) {
+    img.world {
+        width: 100%;
+    }
+    img.Flare {
+        width: 100%;
+    }
+    img.h-lite {
+        width: 100%;
+        transform: translate(-50%, -50%) rotate( 0deg);
+    }
+    img.Vector {
+        right: 0% !important;
+        display: none;
+    }
+    img.cont-bg {
+        width: 100%;
+        height: 383px;
+        object-fit: cover;
+    }
+    img.EllipseHero {
+        width: 100%;
+    }
+    img.Bitcoin {
+        width: 155px;
+    }
+    .hero_cont h2 {
+        font-size: 27px;
+    }
+    .hero_cont {
+        padding: 20px 0;
+        max-width: 268px;
+        margin: auto;
+        margin-top: 158px;
+    }
+    .hero_img {
+        max-width: 275px;
+    }
+    section.hero .row {
+        flex-direction: column-reverse;
+        margin-top: 88px;
+    }
+    .menu-area nav ul li a {
+        font-size: 20px;
+    }
+    .menu-area ul {
+        max-width: 656px;
+    }
+    .logo-area a {
+        font-size: 25px;
+    }
+    .mission-cont p {
+        font-size: 17px;
+        max-width: 100%;
+        margin: unset;
+        margin-top: 34px;
+        padding: 10px;
+    }
+    .mission-cont {
+        height: 274px;
+        background: linear-gradient(125deg, #B17AF0, #4A32F0);
+        border-radius: 30px;
+        position: relative;
+        max-width: 400px;
+    }
+    .mission-cont:after {
+        content: "";
+        position: absolute;
+        width: 99%;
+        height: 99%;
+        background: #2e1d4a;
+        border-radius: 30px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .wedo_blk i {
+        max-width: 150px;
+    }
+    .wedo_blk i img {
+        width: 100%;
+    }
+    .wedo_blk i img.sv_logo {
+        width: 39px;
+        top: 42%;
+    }
+    .wedo_blk p {
+        font-size: 16px;
+    }
+    .wedo_blk:after {
+        width: 99%;
+    }
+    .contact p {
+        font-size: 16px;
+        max-width: 590px;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .footer_cont.aos-init {
+        opacity: 1;
+        transform: unset !important;
+    }
+    .footer-wrp {
+        width: 236px;
+        flex-direction: column;
+        margin: auto;
+    }
+    .footer-wrp a {
+        margin-bottom: 20px;
+    }
+    img.Particles {
+        left: 18%;
+        display: none;
+    }
+    img.lsptop {
+        width: 121px;
+        top: -23% !important;
+        left: 0% !important;
+    }
+    .about_cont p {
+        font-size: 16px;
+    }
+    .about_cont h2 {
+        font-size: 33px;
+    }
+    .about_cont {
+        padding: 40px 30px 20px;
+        max-width: 500px;
+    }
+    img.line {
+        display: none;
+    }
+    .wedo_blk {
+        margin: auto;
+        margin-bottom: 30px;
+        max-width: 299px;
+        padding: 35px 25px 20px;
+    }
+    .wedo_blk span {
+        margin: 20px auto;
+    }
+    .contact h1 {
+        font-size: 36px;
+    }
+    .contact span {
+        font-size: 24px;
+    }
+    .contact a {
+        font-size: 18px;
+        width: max-content;
+        display: block;
+        margin: auto;
+    }
+    .contact a svg {
+        width: 35px;
+        margin-right: 10px;
+    }
+    section.contact-area {
+        height: 335px;
+        margin: 86px 0 61px;
+    }
+    footer {
+        margin-bottom: 15px;
+    }
+    section {
+        margin-bottom: 63px;
+    }
+    section.we_do {
+        padding-top: 50px;
+    }
+    h2.title {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+    section.about {
+        margin-bottom: 0;
+    }
+    .Partner_slider .owl-dots {
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 40px;
+        padding-bottom: 13px;
+        justify-content: center;
+    }
+    img.BitcoinFish {
+        max-width: 350px;
+        margin: auto;
+        width: 100%;
+    }
+    .footer_cont {
+        display: block;
+    }
+    .wedo_blk h2 {
+        font-size: 25px;
+    }
+    section.Partners.aos-init {
+        transform: unset;
+        opacity: 1;
+    }
+    .ps {
+        text-align: center;
+        width: max-content;
+        margin: auto;
+    }
+    .Partner_slider .owl-dot {
+        margin-bottom: 9px;
+        width: 20px;
+        height: 4px;
+    }
+    .Partner_slider .owl-nav i {
+        width: 40px;
+        height: 40px;
+    }
+    .Partner_slider .owl-nav i:after {
+        width: 13px;
+        height: 13px;
+    }
+    [data-aos=fade-up] {
+        transform: unset;
+        opacity: 1;
+    }
+    [data-aos^=fade][data-aos^=fade] {
+        opacity: 1;
+    }
+}
+
+
+/* Large Mobile screen :480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 450px
+    }
+    .about_cont {
+        max-width: 355px;
+    }
+    .wedo_blk {
+        max-width: 300px;
+    }
+    .ps i {
+        width: 150px;
+    }
+    .Partner_slider .owl-nav {
+        width: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    img.cont-bg {
+        object-fit: contain;
+    }
+}
